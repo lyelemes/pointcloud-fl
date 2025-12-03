@@ -8,15 +8,8 @@ You can view or download them here <https://drive.google.com/drive/folders/1MsTG
 
 These examples were produced using the flow-matching model implemented in this repository.
 
-## Citation
-
-```bibtex
-@misc{vlassis2023synthesizingrealisticsandassemblies,
-      title={Synthesizing realistic sand assemblies with denoising diffusion in latent space}, 
-      author={Nikolaos N. Vlassis and WaiChing Sun and Khalid A. Alshibli and Richard A. Regueiro},
-      year={2023},
-      eprint={2306.04411},
-      archivePrefix={arXiv},
-      primaryClass={cs.CE},
-      url={https://arxiv.org/abs/2306.04411}, 
-}
+# Reference 
+Nikolaos N. Vlassis, WaiChing Sun, Khalid A. Alshibli, and Richard A. Regueiro.
+"Generative Modeling of 3D Granular Media Using Diffusion Models."
+arXiv:2306.04411 (2023).
+https://arxiv.org/abs/2306.04411
