@@ -1,3 +1,8 @@
+"""
+Flow matching implementation based on EEML 2025 tutorial.
+Tutorial materials from: https://github.com/eemlcommunity/PracticalSessions2025/tree/main/4_flow_matching_drug_discovery
+"""
+
 import torch
 import torch.nn as nn
 import numpy as np
@@ -53,6 +58,7 @@ def train(
     record_losses = []
     loss_best = float('inf')
     for epoch in range(epochs):
+        # This training loop is adapted from the EEML tutorial on flow matching.
         losses = []
         model.train()
         autoencoder.eval()
