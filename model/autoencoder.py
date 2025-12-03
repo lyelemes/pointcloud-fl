@@ -1,3 +1,7 @@
+# This PointCloudAutoencoder is adapted from: https://github.com/cihanongun/Point-Cloud-Autoencoder/tree/master
+# The original paper: Qi et al., "Learning Representations and Generative Models for 3D Point Clouds," 2017
+# Modifications: added extra conv layers, changed input features, uses PReLU, reshaped latent for DDPM/Flow Matching
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
