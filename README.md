@@ -7,3 +7,16 @@ I provide a collection of generated latent vectors decoded back into 3D point-cl
 You can view or download them here <https://drive.google.com/drive/folders/1MsTGhEDip9iwukcvqaRbYzt9-MpBKp8X?usp=sharing>.  
 
 These examples were produced using the flow-matching model implemented in this repository.
+
+## Citation
+
+```bibtex
+@misc{vlassis2023synthesizingrealisticsandassemblies,
+      title={Synthesizing realistic sand assemblies with denoising diffusion in latent space}, 
+      author={Nikolaos N. Vlassis and WaiChing Sun and Khalid A. Alshibli and Richard A. Regueiro},
+      year={2023},
+      eprint={2306.04411},
+      archivePrefix={arXiv},
+      primaryClass={cs.CE},
+      url={https://arxiv.org/abs/2306.04411}, 
+}
