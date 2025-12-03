@@ -1,3 +1,8 @@
+"""
+Dhariwal & Nichol, "Improved Denoising Diffusion Models" (2021).
+Paper: https://arxiv.org/abs/2102.09672
+"""
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -8,7 +13,7 @@ import numpy as np
 
 def zero_module(module):
     """
-    Zero out the parameters of a module and return it.
+    Sets all parameters of the module to zero and return it.
     """
     for p in module.parameters():
         p.detach().zero_()
