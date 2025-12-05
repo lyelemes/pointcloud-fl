@@ -38,8 +38,8 @@ def get_train_dataloader(data_folder, batch_size=32, num_workers=4, worker_init_
 
 def load_pointcloud_data(data_folder, batch_size=32, num_workers=4, deterministic=False, worker_init_fn=None, seed=42):
     """
-    Infinite generator that yields batches of point clouds and empty dicts
-    (like the ImageDataset version, for TrainLoop compatibility).
+    Infinite generator that yields batches of point clouds. 
+    Used in training loop. Not used in flow matching. 
     """
     dataset = PointCloudDataset(data_folder)
 
